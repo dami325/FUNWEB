@@ -32,6 +32,7 @@ if(keyword == null){
 	<div id="wrap">
 		<jsp:include page="../inc/top.jsp" />
 		<jsp:include page="../inc/left.jsp"></jsp:include>
+		<div id="subdiv">
 			<h1>게시판</h1>
 			<table id="notice">
 				<tr>
@@ -143,6 +144,7 @@ if(keyword == null){
 		<div class="clear"></div>
 		<!-- 푸터 들어가는곳 -->
 		<!-- 푸터 들어가는곳 -->
+		</div>
 	</div>
 </body>
 </html>
