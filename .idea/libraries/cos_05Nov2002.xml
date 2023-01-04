@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="cos-05Nov2002">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/d_project/src/main/webapp/WEB-INF/lib/cos-05Nov2002.jar!/" />
+      <root url="jar://$PROJECT_DIR$/d_project/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
