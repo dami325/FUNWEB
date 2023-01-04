@@ -11,12 +11,12 @@
     pageEncoding="UTF-8"%>
     <%
 SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd HH:mm");
-
+    
 String sId = (String)session.getAttribute("sId");
 %>	
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 <meta charset="UTF-8">
 	<title>main/main.jsp</title>
 		<link href="../css/dami_css.css" rel="stylesheet" type="text/css">

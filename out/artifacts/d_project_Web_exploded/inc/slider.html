@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="../css/slider.css" rel="stylesheet">
+</head>
+<body>
+	<div class="slide_wrapper">
+		<ul class="slides" style="height: 80px; width: 1200px;">
+			<li onclick="background1()"><img src="../image/1.png" alt="" style="height: 80px; width: 200px;" ></li>
+			<li onclick="background2()"><img src="../image/2.png" alt="" style="height: 80px; width: 200px;"></li>
+			<li onclick="background1()"><img src="../image/1.png" alt="" style="height: 80px; width: 200px;"></li>
+			<li onclick="background2()"><img src="../image/2.png" alt="" style="height: 80px; width: 200px;"></li>
+		</ul>
+	</div>
+<!-- 		<p class="controls"> -->
+<!-- 			<span class="prev"><</span> -->
+<!-- 			<span class="next">></span> -->
+<!-- 		</p> -->
+<script>
+
+
+// function background1(){
+// 	location.href="../center/driver.jsp";
+// }
+// function background2(){
+// 	location.href="../center/notice.jsp";
+	
+// }
+
+const container = document.querySelector('.slides'),
+slides = document.querySelectorAll('img'),
+slidecounter = slides.length;
+let currentIndex = 0;
+
+var lele = 0;
+var i = 0;
+function moveleft() {
+if (i < slidecounter - 2) {
+    lele += 200;
+    i++;
+    container.style.transition = '0.1s'
+    setTimeout('moveleft()', 3000);
+} else {
+    container.style.transition = '0.1s'
+    lele = 0;
+    i = 0;
+    setTimeout('moveleft()', 0);
+}
+container.style.left ="-" + lele + "px";
+
+}
+
+moveleft();
+
+
+
+</script>
+</body>
+</html>

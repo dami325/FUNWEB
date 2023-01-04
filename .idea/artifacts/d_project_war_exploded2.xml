@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="d_project:Web exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/d_project_Web_exploded</output-path>
+  <artifact type="exploded-war" name="d_project:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/d_project_war_exploded2</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -8,10 +8,11 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="module" name="cos-05Nov2002.jar" module-name="d_project" />
-          <element id="library" level="project" name="cos-05Nov2002" />
           <element id="library" level="module" name="mysql-connector-java-8.0.29.jar" module-name="d_project" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="d_project/web/Web" />
+      <element id="javaee-facet-resources" facet="d_project/javaeeApplication/javaEEApplication" />
     </root>
   </artifact>
 </component>
